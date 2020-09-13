@@ -34,3 +34,4 @@ const twoSum = function(nums, target) {
     }
     comp[target-nums[i]] = i
     }
+}
