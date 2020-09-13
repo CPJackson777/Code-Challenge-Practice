@@ -26,4 +26,5 @@
 // -109 <= target <= 109
 // Only one valid answer exists.
 
-const twoSum = function(nums, target)
+const twoSum = function(nums, target) {
+    const comp = {};
