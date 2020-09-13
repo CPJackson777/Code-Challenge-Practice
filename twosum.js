@@ -25,3 +25,5 @@
 // -109 <= nums[i] <= 109
 // -109 <= target <= 109
 // Only one valid answer exists.
+
+const twoSum = function(nums, target)
