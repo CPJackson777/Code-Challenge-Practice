@@ -22,3 +22,12 @@ const reverse = x => {
     const n = Number(String(Math.abs(x)).split('').reverse().join(''));
     return n > limit ? 0 : n * k;
 };
+
+
+const reverse = function(x) {
+    const result = parseInt(x.toString().split('').reverse().join(''));                 
+    if (result > 0x7FFFFFFF) {
+        return 0;
+    }
+    return Math.sign(x) * result;
+};
