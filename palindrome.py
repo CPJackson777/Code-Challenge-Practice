@@ -14,3 +14,8 @@
 # Input: 10
 # Output: false
 # Explanation: Reads 01 from right to left. Therefore it is not a palindrome.
+
+def isPalindrome(self, x):
+    return str(x) == str(x)[::-1]
+
+    # return False if x < 0 else x == int(str(x)[::-1])
